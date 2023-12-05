@@ -153,16 +153,16 @@ class OrmModel(metaclass=OrmModelMeta):
 #     field_1 = OrmText()
 #     field_2 = OrmInteger()
 #     field_3 = OrmFloat()
-
-
+#
+#
 # # Пример создания записи в таблице
-# new_record = SomeTable(field_1='text4', field_2=42, field_3=34.5)
+# new_record = SomeTable(field_1='text', field_2=42, field_3=34.5)
 # new_record.save()
-
+#
 # # Пример получения всех записей из таблицы
 # all_records = SomeTable.all()
 # print(all_records)
-
+#
 # # Пример фильтрации записей по значению
 # filtered_records = SomeTable.filter(field_1='text')
 # print(filtered_records)
